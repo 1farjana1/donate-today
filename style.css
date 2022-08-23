@@ -70,11 +70,6 @@ hr {
     width: 60%;
 }
 
-.middle {
-    text-align: center;
-    color: lightgray;
-}
-
 .link-button {
     color: white;
     text-decoration: none;
@@ -83,7 +78,13 @@ hr {
     border-radius: 10px;
     margin: 0;
     position: absolute;
-    margin-left: 565px;
+    margin-left: 545px;
+}
+
+#middle {
+    margin-left: 550px;
+    border: none;
+    outline: none;
 }
 
 .middle-part {
@@ -210,6 +211,7 @@ input {
     color: white;
     height: 175px;
     padding-top: 100px;
+    margin-bottom: 0px;
 }
 
 .footer-part i {
